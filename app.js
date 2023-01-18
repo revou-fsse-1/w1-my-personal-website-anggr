@@ -1,3 +1,3 @@
 function showAlert() {
-  alert("Amiiin paling serius");
+  alert("Semoga Okky bisa kerja di Nasa... Amiinnn");
 }
