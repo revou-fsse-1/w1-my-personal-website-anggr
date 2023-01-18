@@ -11,6 +11,7 @@ html,
 body {
   margin: 0px;
   background-color: black;
+  scroll-behavior: smooth;
 }
 /* Navbar Start */
 
@@ -20,6 +21,8 @@ nav.container {
   /* text-align: right; */
   position: fixed;
   right: 0;
+  background-color: black;
+  z-index: 1;
 }
 
 nav.container a {
