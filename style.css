@@ -6,6 +6,7 @@
   font-family: "ocr-a";
   src: url(fonts/OCRA.otf) format("opentype");
 }
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 html,
 body {
@@ -18,7 +19,6 @@ body {
 nav.container {
   margin: 0 auto;
   padding: 2em;
-  /* text-align: right; */
   position: fixed;
   right: 0;
   background-color: black;
@@ -72,7 +72,7 @@ nav.navbar a:hover:after {
   min-height: 100vh;
 }
 
-.hero-text {
+.hero-content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -81,18 +81,19 @@ nav.navbar a:hover:after {
   color: white;
 }
 
-div.hero-text img {
+div.hero-content img {
   width: 400px;
   height: 400px;
   object-fit: cover;
 }
 
-.hero-text h1 {
+.hero-content h1 {
   font-size: 3rem;
   font-family: "prospec light";
   margin: 0;
 }
-.hero-text p {
+
+.hero-content p {
   font-size: 1.3rem;
   font-family: "ocr-a";
   margin: 0;
@@ -107,7 +108,7 @@ div.hero-text img {
   justify-content: center;
 }
 
-.about-text {
+.about-content {
   font-size: 2rem;
   color: white;
   font-family: "ocr-a";
@@ -115,20 +116,102 @@ div.hero-text img {
   text-align: center;
 }
 
-div.about-text img {
+div.about-content img {
   width: 140px;
   height: 190px;
   object-fit: scale-down;
   padding: 0 10px;
 }
-div.about-text img {
+div.about-content img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-div.about-text img:hover {
+div.about-content img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
 }
+
+button {
+  padding: 1em 10em;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid white;
+  font-family: "ocr-a";
+  font-size: large;
+}
+
+button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowingbn5 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowingbn5 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+button:active {
+  color: #000;
+}
+
+button:active:after {
+  background: transparent;
+}
+
+button:hover:before {
+  opacity: 1;
+}
+
+button:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
 /* about end */
 
 /* footer start */
