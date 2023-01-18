@@ -132,9 +132,11 @@ div.about-text img:hover {
 /* about end */
 
 /* footer start */
-footer {
-  left: 0;
-  bottom: 0;
+
+footer.container {
+  border-top: 0.5px solid white;
+}
+footer.container p {
   color: white;
   text-align: left;
   margin-left: 2em;
