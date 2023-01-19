@@ -6,7 +6,7 @@
   font-family: "ocr-a";
   src: url(fonts/OCRA.otf) format("opentype");
 }
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 html,
 body {
@@ -156,7 +156,7 @@ button {
   border-radius: 5px;
   text-decoration: none;
   border: 1px solid white;
-  font-family: "ocr-a";
+  font-family: "poppins";
   font-size: large;
 }
 
