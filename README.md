@@ -5,7 +5,7 @@
 <img src="https://media.giphy.com/media/KEG5UtvXUD7WPIhhuy/giphy.gif" width="200" height="200" />
 
 This site is inspired by Codecademy ads: NASA 🚀.</br>
-When I saw the ad, I was amazed. Work in tech has always been a dream of mine, hence i learn about programing but i never thought i could've dream bigger. In the Codecademy's ads, they show how one of their graduates is working in NASA and i thought _"hey that's my childhood dream"._ Work in NASA and make a difference in the world. I was inspired by that and decided to make this website.
+When I saw the ad, I was amazed. Work in tech has always been a dream of mine, hence i learn about programing but i never thought i could've dream bigger. In the Codecademy's ads, they show how one of their graduates is working in NASA and i thought _"hey that's my childhood dream"._ Work in NASA and make a difference in the world. I was inspired by that and decided to make this website.</br>
 Yes, i know its good to be true, but hey, one can dream right?
 
 ## Visit my Website
