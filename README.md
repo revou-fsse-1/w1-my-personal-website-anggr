@@ -9,13 +9,14 @@ When I saw the ad, I was amazed. Work in tech has always been a dream of mine, h
 Yes, i know its good to be true, but hey, one can dream right?
 
 ## Visit my Website
+![](https://res.cloudinary.com/djudfrj8s/image/upload/v1674098149/W1_Personal_Website_qy3qbm.png)
 
 https://okky.me/ </br>
 https://okkyanggoro.netlify.app/
 
 ## Website Taxonomy
 
-This website has 3 pages:
+This website has 2 pages:
 
 ### Home
 
