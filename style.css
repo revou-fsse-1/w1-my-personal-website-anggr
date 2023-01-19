@@ -24,7 +24,7 @@ nav.container {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 10px 5%;
+  padding: 12px 5%;
   background-color: black;
   z-index: 99;
 }
