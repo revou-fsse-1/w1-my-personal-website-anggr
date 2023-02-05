@@ -2,14 +2,17 @@
 
 > This is my assignment for w1-my-personal-website
 
-<img src="https://media.giphy.com/media/KEG5UtvXUD7WPIhhuy/giphy.gif" width="200" height="200" />
+At this week assignment is to create our own personal website using basic HTML, CSS, and JavaScript, which we will push to a GitHub repository and deploy to Netlify.
+
+## My Project
+![](https://res.cloudinary.com/djudfrj8s/image/upload/v1674098149/W1_Personal_Website_qy3qbm.png)
 
 This site is inspired by Codecademy ads: NASA 🚀.</br>
 When I saw the ad, I was amazed. Work in tech has always been a dream of mine, hence i learn about programing but i never thought i could've dream bigger. In the Codecademy's ads, they show how one of their graduates is working in NASA and i thought _"hey that's my childhood dream"._ Work in NASA and make a difference in the world. I was inspired by that and decided to make this website.</br>
 Yes, i know its good to be true, but hey, one can dream right?
 
-## Visit my Website
-![](https://res.cloudinary.com/djudfrj8s/image/upload/v1674098149/W1_Personal_Website_qy3qbm.png)
+### Visit my Project
+
 
 https://okky.me/ </br>
 https://okkyanggoro.netlify.app/
